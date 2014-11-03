@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	  <servlet>
+	    <servlet-name>WishServlet</servlet-name>
+	    <servlet-class>org.liufeng.course.util.WishServlet</servlet-class>
+	  </servlet>
+
+	<!-- /WishServlet用于指定该Servlet的访问路径 -->
+  <servlet-mapping>
+    <servlet-name>WishServlet</servlet-name>
+    <url-pattern>/servlet/WishServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

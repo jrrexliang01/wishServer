@@ -1,0 +1,23 @@
+[ERROR] 2014-11-03 12:46:35,661 org.liufeng.course.util.CommonUtil https«Î«Û“Ï≥££∫{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1675)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1673)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1671)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1244)
+	at java.net.URLConnection.getContent(URLConnection.java:748)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getContent(HttpsURLConnectionImpl.java:434)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:70)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:64)
+	at com.wish.www.test.ProductUtilTest.createProductBooleanTest(ProductUtilTest.java:87)
+	at com.wish.www.test.ProductUtilTest.main(ProductUtilTest.java:295)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:69)
+	... 3 more

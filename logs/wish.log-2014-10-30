@@ -1,0 +1,264 @@
+[ERROR] 2014-10-30 13:02:35,480 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:47)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:91)
+[ERROR] 2014-10-30 13:04:39,314 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:47)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:91)
+[ERROR] 2014-10-30 13:05:17,109 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:47)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:91)
+[ERROR] 2014-10-30 13:47:07,499 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 13:47:08,651 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add -d "sku=red-shoe-11&size=12&inventory=10&price=10&shipping=3&parent_sku=red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 13:49:28,954 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 13:49:29,977 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add -d "sku=red-shoe-11&size=12&inventory=10&price=10&shipping=3&parent_sku=red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 13:50:17,295 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d "name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 13:50:20,239 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add -d "sku=red-shoe-12&size=12&inventory=10&price=10&shipping=3&parent_sku=red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc="
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 13:53:19,471 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 13:53:20,763 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add?sku=red-shoe-12&size=12&inventory=10&price=10&shipping=3&parent_sku=red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 14:59:15,433 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=jrrexliang-red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i.imgur.com/Q1a32kD.jpg&parent_sku=jrrexliang-red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 14:59:17,306 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add?sku=red-shoe-12&size=12&inventory=10&price=10&shipping=3&parent_sku=jrrexliang-red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 15:10:35,343 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=jrrexliang-red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i1381.photobucket.com/albums/ah226/120295690/20141017044108811804492be7-afc5-4670-8d80-a643040a0301_zps31fe60d5.png&parent_sku=jrrexliang-red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 15:10:36,404 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/variant/add?sku=red-shoe-12&size=12&inventory=10&price=10&shipping=3&parent_sku=jrrexliang-red-shoe&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductVariationUtil.ProductVariationBoolean(ProductVariationUtil.java:12)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:112)
+[ERROR] 2014-10-30 15:45:54,209 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=jrrexliang-red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i1381.photobucket.com/albums/ah226/120295690/20141017044108811804492be7-afc5-4670-8d80-a643040a0301_zps31fe60d5.png&parent_sku=jrrexliang-red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 15:51:52,042 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=jrrexliang-red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i1381.photobucket.com/albums/ah226/120295690/20141017044108811804492be7-afc5-4670-8d80-a643040a0301_zps31fe60d5.png&parent_sku=jrrexliang-red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.createProductBoolean(ProductUtil.java:48)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:92)
+[ERROR] 2014-10-30 15:53:33,985 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 15:54:19,235 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 15:55:24,932 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add -d
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 15:57:29,958 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:09:46,429 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:11:01,543 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add?name=shoe&description=this is a cool shoe&tags=red,shoe,cool&sku=jrrexliang-red-shoe-11&inventory=100&price=100&shipping=10&main_image=http://i1381.photobucket.com/albums/ah226/120295690/20141017044108811804492be7-afc5-4670-8d80-a643040a0301_zps31fe60d5.png&parent_sku=jrrexliang-red-shoe&extra_images=http://i.imgur.com/Q1a32kD.jpg|http://i.imgur.com/Cxagv.jpg&key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:20:51,901 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:24:25,511 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.net.UnknownHostException: sandbox.merchant.wish.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:275)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:371)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:59)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:24:42,528 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.net.UnknownHostException: sandbox.merchant.wish.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:275)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:371)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:59)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 16:29:26,366 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://sandbox.merchant.wish.com/api/v1/product/add
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.ProductUtil.main(ProductUtil.java:96)
+[ERROR] 2014-10-30 18:34:26,229 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.AuthTestUtil.authTestBoolean(AuthTestUtil.java:22)
+	at com.wish.www.test.AuthTestUtilTest.main(AuthTestUtilTest.java:13)
+[ERROR] 2014-10-30 18:44:17,157 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	at org.liufeng.course.util.AuthTestUtil.authTestBoolean(AuthTestUtil.java:22)
+	at com.wish.www.test.AuthTestUtilTest.main(AuthTestUtilTest.java:13)
+[ERROR] 2014-10-30 18:55:53,146 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1675)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1673)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1671)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1244)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:68)
+	at org.liufeng.course.util.AuthTestUtil.authTestBoolean(AuthTestUtil.java:22)
+	at com.wish.www.test.AuthTestUtilTest.main(AuthTestUtilTest.java:13)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at java.net.HttpURLConnection.getResponseMessage(HttpURLConnection.java:534)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseMessage(HttpsURLConnectionImpl.java:382)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	... 2 more
+[ERROR] 2014-10-30 19:01:23,988 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1675)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1673)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1671)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1244)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:68)
+	at org.liufeng.course.util.AuthTestUtil.authTestBoolean(AuthTestUtil.java:22)
+	at org.liufeng.course.util.CommonUtil.main(CommonUtil.java:98)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: https://sandbox.merchant.wish.com/api/v1/auth_test?key=JHBia2RmMiQxMDAkYk8zOXYvYy5SLmk5RjhMNFg0dHhqZyRKUGVqUERJaWg1MXZSOE1yMDJYUWswVGltLmc=a
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:468)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:66)
+	... 2 more
