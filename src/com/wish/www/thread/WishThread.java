@@ -266,15 +266,18 @@ public class WishThread extends Thread {
 						}
 						if (vpstate) {
 							shopCommodity.setShopCommodityState(4);
+							shopCommodity.setCommodityIsEnable(1);
 							sendProductList.add(shopCommodity);
 							HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation="+jsonArray.fromObject(sendProductVariationList).toString());
 						}else{
 							shopCommodity.setShopCommodityState(2);
+							shopCommodity.setCommodityIsEnable(0);
 							sendProductList.add(shopCommodity);
 							HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation="+jsonArray.fromObject(sendProductVariationList).toString());
 						}
 					} else {
 						shopCommodity.setShopCommodityState(3);
+						shopCommodity.setCommodityIsEnable(0);
 						sendProductList.add(shopCommodity);
 						HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation=");
 					}
@@ -325,15 +328,18 @@ public class WishThread extends Thread {
 						}
 						if (vpstate) {
 							shopCommodity.setShopCommodityState(5);
+							shopCommodity.setCommodityIsEnable(0);
 							sendProductList.add(shopCommodity);
 							HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation="+jsonArray.fromObject(sendProductVariationList).toString());
 						}else{
 							shopCommodity.setShopCommodityState(2);
+							shopCommodity.setCommodityIsEnable(0);
 							sendProductList.add(shopCommodity);
 							HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation="+jsonArray.fromObject(sendProductVariationList).toString());
 						}
 					} else {
 						shopCommodity.setShopCommodityState(3);
+						shopCommodity.setCommodityIsEnable(0);
 						sendProductList.add(shopCommodity);
 						HTTPUtil.sendPost("http://192.168.1.110:8080/wish/server/editShopProduct/","shopCommodity="+jsonArray.fromObject(sendProductList).toString()+"&productVariation=");
 					}
