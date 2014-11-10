@@ -26,6 +26,8 @@ public class ProductVariation {
 	
 	private String main_image;
 
+	private String parent_sku;
+	
 	private String wish_id;
 	
 	public Integer getId() {
@@ -131,5 +133,10 @@ public class ProductVariation {
 	public void setWish_id(String wish_id) {
 		this.wish_id = wish_id;
 	}
-
+	public String getParent_sku() {
+		return parent_sku;
+	}
+	public void setParent_sku(String parent_sku) {
+		this.parent_sku = parent_sku;
+	}
 }
